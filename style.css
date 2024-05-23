@@ -1,18 +1,18 @@
-p {
-  color: red;
-}
-
 .container {
   display: flex;
-  justify-content: center;
-  flex-direction: row; /* Try changing this to 'column' instead!*/
+  align-items: center;
+  flex-direction: column;
   gap: 10px;
   padding: 20px;
 }
 
 .box {
-  flex-basis: 200px;
+  flex-basis: 40px;
   background-color: #f0f0f0;
   padding: 20px;
   border-radius: 8px;
+}
+
+Body {
+  background-color: #1589FF;
 }
